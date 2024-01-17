@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern 1</title>
+    <script>
+        let row= prompt("Enter Numbers of rows:");
+        row = parseInt(row);
+
+        let pattern = '';
+
+        for(let i = 1; i <= row; i++){
+            for(let j=1; j<=row; j++)
+    
+        {
+            if(j >= i){
+                pattern += "* ";
+            }else{
+                pattern +="  ";
+            }
+        }
+    
+        pattern += '\n';
+        
+    }  
+    document.write('<pre>' + pattern + '</pre>');
+      </script>
+</head>
+<body>
+    
+    
+</body>
+</html>

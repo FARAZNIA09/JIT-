@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          /* Starting Of Marquee  */
+        
+        
+          .name {
+            background: gold;
+            height: 50px;
+            font-weight: bold;
+            position: relative;
+            top: 0px;
+            bottom: 50px;
+            color: rgb(18, 18, 163);
+            z-index: -1;
+          }
+        
+          .name p {
+            position: relative;
+            bottom: 50px;
+            font-size: 50px;
+          }
+        
+          .name img {
+            position: relative;
+            top: 5px;
+            height: 40px;
+            right: 210px;
+          }
+        
+          /* Ending Of Marquee  */
+        
+        
+        .bod{
+            position: absolute;
+            height: 100%;
+            width: 98rem;
+            top: 20rem;
+            font-family: Robot;
+            z-index: -100;
+            transform: translateX(700px);
+            animation: slide1 0.8s linear forwards;
+            opacity: 0;
+            animation-delay: 0.8s;
+        }
+
+        @keyframes slide1 {
+            0%, 49.77%{
+               opacity: 1;
+               transform: translateX(0);
+               
+            }
+
+            50%, 100%{
+                opacity: 0;
+                transform: translateX(1000px);
+            }
+        }
+
+
+        .color{
+            position: relative;
+            z-index: 1;
+            background-color: rgb(244, 192, 59);
+            width: 70rem;
+            height: 84rem;
+            clip-path: polygon(48% -8%, 1% 65%, 46% 65%);
+            left: 72%;
+            top: -43.2rem;
+            transform: translateX(300px);
+            animation: slide1 0.8s linear forwards;
+            opacity: 0;
+            animation-delay: 3s;
+        }
+
+        @keyframes slide1 {
+            to{
+               opacity: 1;
+               transform: translateX(0);
+               
+            }
+        }
+
+        
+
+        .color2{
+            position: relative;
+            z-index: -2;
+            background-color: rgba(244, 192, 59, 0.507);
+            width: 92rem;
+            height: 75rem;
+            clip-path: polygon(40% -17%, 0% 65%, 42% 65%);
+            left: 63%;
+            top: -121rem;
+            transform: translateX(300px);
+            animation: slide2 0.8s linear forwards;
+            opacity: 0;
+            animation-delay: 2.3s;
+        
+        }
+
+        @keyframes slide2 {
+            to{
+                opacity: 1;
+                transform: translateX(0);
+               
+            }
+        }
+
+        .color3{
+            position: relative;
+            z-index: -3;
+            background-color: rgba(244, 192, 59, 0.199);
+            width: 125rem;
+            height: 100rem;
+            clip-path: polygon(37% -11%, 0% 65%, 42% 65%);
+            left: 53%;
+            top: -211rem;
+            transform: translateX(180px);
+            animation: slide3 0.8s linear forwards;   
+            opacity: 0;
+            animation-delay: 2.1s;
+
+        }
+
+        @keyframes slide3 {
+            to{
+               opacity: 1;               
+               transform: translateX(0);
+               
+            }
+
+        }    
+        
+        .bdimg2 img{
+            position: absolute;
+            width: 40%;
+            height: 74%;
+            left: 42rem;
+            top: -4rem;
+            transform: translateX(400px);
+            animation: sildeimg 0.8s linear forwards;
+            opacity: 0;
+            animation-delay: 2.6s;
+
+        }
+
+        @keyframes sildeimg {
+          to{  opacity: 1;
+               transform: translateX(0);
+        }
+        }
+
+        .bdtxt h2{
+
+            position: relative;
+            top: -4rem;
+            left: 9rem;
+            line-height: 2.3rem;
+            font-size: 47px;
+            width: 25rem;
+            color: rgb(16, 32, 68);
+            transform: translateX(-800px);
+            animation: sildeh2 0.8s linear forwards;
+            opacity: 0;
+            animation-delay: 0.7s;
+        }
+
+
+        @keyframes sildeh2 {
+            to{  opacity: 1;
+                 transform: translateX(0);
+          }
+          }
+
+        .bdtxt h3{
+            position: relative;
+            top: -3.7rem;
+            left: 9rem;
+            line-height: 2.1rem;
+            font-size: 47px;
+            width: 25rem;
+            color: rgb(240, 205, 48);
+            transform: translateX(-1500px);
+            animation: sildeh3 0.8s linear forwards;
+            opacity: 0;
+            animation-delay: 0.8s;
+        }
+
+
+        @keyframes sildeh3 {
+            to{  opacity: 1;
+                 transform: translateX(0);
+          }
+          }
+
+        .bdtxt p{
+            position: relative;
+            top: -2rem;
+            left: 9rem;
+            line-height: 2.1rem;
+            font-size: 30px;
+            width: 29rem;
+            color: rgb(16, 32, 68);
+            transform: translateX(-1600px);
+            animation: sildep 0.8s linear forwards;
+            opacity: 0;
+            animation-delay: 0.8s;
+        }
+
+        @keyframes sildep {
+            to{  opacity: 1;
+                 transform: translateX(0);
+          }
+          }
+
+        .bdtxt h1{
+            position: relative;
+            top: 0rem;
+            left: 9rem;
+            line-height: 2.1rem;
+            font-size: 47px;
+            color: rgb(16, 32, 68);
+            width: 25rem;
+            transform: translateX(-1700px);
+            animation: sildeh1 0.8s linear forwards;
+            opacity: 0;
+            animation-delay: 0.9s;
+        }
+ 
+        @keyframes sildeh1 {
+            to{  opacity: 1;
+                 transform: translateX(0);
+          }
+          }
+
+        .btn{
+            
+            background-color: rgb(56, 64, 67);
+            color: rgb(244, 192, 59);
+            width: 107px;
+            height: 107px;
+            box-shadow: rgb(233, 234, 236) 0px 0px 0px 12px;
+            border-radius: 100%;
+            top: 4rem;
+            position: relative;
+            z-index: -10;
+            left: 12rem;
+            transform: translateX(-800px);
+            animation: sildeimg 0.8s linear forwards;
+            opacity: 0;
+            animation-delay: 1.2s;
+        }
+
+        @keyframes sildeh1 {
+            to{  opacity: 1;
+                 transform: translateX(0);
+          }
+          }
+
+        .btn ion-icon{
+            
+            position: absolute;
+            top: 2rem;
+            left: 2rem;
+            width: 2.6rem;
+            height: 2.6rem;
+            
+        }
+    </style>
+</head>
+<body>
+     <!-- Starting Of Marquee Tag -->
+     <div class="name">
+        <marquee behavior direction="left">
+            <img src="./image/jitlogo.png" alt srcset>
+            <p>Jahangirabad Education Trust Group Of Institution</p>
+        </marquee>
+    </div>
+    <!-- Starting Of Body 1 Slider -->
+    <div class="bod">
+        <div class="bdimg2">
+            <div class="bdtxt">
+                <h2>EMPOWERING STUDENTS</h2>
+                <H3>FOR SUCCESS</H3>
+                <P>Don't get framed by the competition, trust our solid reputation.</P>
+                <h1>Why Join JIT?</h1>
+                <div class="btn">
+                    <ion-icon name="play"></ion-icon>
+                </div>
+            </div>
+            <div class="color"></div>
+            <img src="./image/Jahangirabad Institute of Technology JIT_files/Untitled-3-1.png" alt="">
+            <div class="color2"></div>
+            <div class="color3"></div>
+
+        </div>
+    </div> 
+</body>
+</html>

@@ -1,0 +1,1289 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+    
+        * {
+    
+            margin: 0;
+            padding: 0;
+            box-sizing: content-box;
+          
+          }
+          /* Starting Of Header  */
+        
+          .header {
+            background: rgb(187, 225, 240);
+            color: rgb(16, 32, 68);
+            top: 0px;
+            width: 100%;
+            height: 54px;
+          }
+        
+          .header .image1 {
+            position: absolute;
+            top: 17px;
+            left: 181px;
+          }
+        
+          .header .image1:hover {
+            color: rgb(201, 201, 6);
+            cursor: pointer;
+          }
+        
+        
+          .header .image2 {
+            position: absolute;
+            top: 17px;
+            left: 331px;
+          }
+        
+          .header .image2:hover {
+            color: rgb(201, 201, 6);
+            cursor: pointer;
+          }
+        
+          .header .image3 {
+            position: absolute;
+            top: 16.4px;
+            left: 476px;
+          }
+        
+          .header .image3:hover {
+            color: rgb(201, 201, 6);
+            cursor: pointer;
+          }
+        
+          .header .image4 {
+            position: absolute;
+            top: 16.4px;
+            left: 647px;
+          }
+        
+          .header .image4:hover {
+            color: rgb(201, 201, 6);
+            cursor: pointer;
+          }
+        
+          .header .image5 {
+            position: absolute;
+            top: 16px;
+            left: 82rem;
+            height: 30px;
+            width: 30px;
+          }
+        
+          .header .image5:hover {
+            color: rgb(201, 201, 6);
+            cursor: pointer;
+          }
+        
+          .header .image6 {
+            position: absolute;
+            top: 16px;
+            left: 85rem;
+            height: 30px;
+            width: 30px;
+          }
+        
+          .header .image6:hover {
+            color: rgb(201, 201, 6);
+            cursor: pointer;
+          }
+        
+          .header .image7 {
+            position: absolute;
+            top: 16px;
+            left: 88rem;
+            height: 30px;
+            width: 30px;
+        
+          }
+        
+          .header .image7:hover {
+            color: rgb(201, 201, 6);
+            cursor: pointer;
+          }
+        
+          .header .image8 {
+            position: absolute;
+            top: 16px;
+            left: 91rem;
+            height: 30px;
+            width: 30px;
+          }
+        
+          .header .image8:hover {
+            color: rgb(201, 201, 6);
+            cursor: pointer;
+          }
+        
+        
+        
+          .header ul li:hover {
+            cursor: pointer;
+            color: rgb(201, 201, 6);
+          }
+        
+          .header hr {
+            width: 20px;
+            rotate: 90deg;
+            position: relative;
+            bottom: 4.7px;
+            left: 185px;
+            display: inline-block;
+          }
+        
+          .header ul li {
+            display: inline-block;
+            padding: 15px 0px 0px 10px;
+            position: relative;
+            left: 193px;
+        
+          }
+        
+          .header button {
+            display: inline-block;
+            padding: 12px;
+            width: 130px;
+            border-radius: 10px;
+            background: rgb(8, 8, 77);
+            box-shadow: 4px 5px 10px 1px rgb(59, 57, 57);
+            color: white;
+            position: relative;
+            left: 59%;
+            bottom: 29px;
+          }
+        
+          .header button:hover {
+            cursor: pointer;
+            background-color: rgb(201, 201, 6);
+          }
+
+          .navbar {
+            background-color: white;
+            color: black;
+            position: relative;
+            top: 0px;
+            height: 7vh;
+            padding-left: 100px;
+          }
+        
+          .navbar ul img {
+            display: inline-block;
+            position: relative;
+            /* top: 6px; */
+            width: 160px;
+            bottom: -6px;
+          }
+        
+          .navbar ul li {
+            display: inline;
+            font-size: 17px;
+            padding: 10px 21px;
+            text-align: center;
+            position: relative;
+            bottom: 9px;
+          }
+          
+          .navbar ul li a{
+            text-decoration: none;
+            color: #0b2746;
+          }
+        
+          .navbar ul li a:hover {
+            
+            color: #fcb900;
+          }
+        
+          .navbar ul li:hover {
+            background: white;
+            color: rgb(233, 230, 73);
+            cursor: pointer;
+          }
+        
+          .arrow {
+            position: absolute;
+            top: 13px;
+          }
+        
+          /* About Start */
+        
+          .drop1 {
+            display: inline-block;   
+          }
+        
+          .dropdown1 {
+            display: none;
+            background: white;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            height: 15rem;
+            padding: 0px;
+            width: 12rem;
+            color: rgb(8, 8, 77);
+            position: absolute;
+            top: 3rem;
+          }
+        
+          .drop1:hover .dropdown1 {
+            display: block;
+          }
+        
+          .dropdown1 ul li {
+            position: relative;
+            top: 10px;
+            display: block;
+          }
+        /* About End */
+        
+        
+        /* Course start  */
+          .drop2 {
+            display: inline-block;
+          }
+        
+          .dropdown2 {
+            display: none;
+            background: white;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            color: rgb(16, 32, 68);
+            position: absolute;
+            top: 3rem;
+            left: 0rem;
+            /* margin-left: -0.5px;    */
+            height: 29rem;
+            width: 94.86%;
+            padding: 40px;
+            border-radius: 20px;
+        
+          }
+        
+          .dropdown2 ul li {
+            display: flex;
+            position: relative;
+            width: 370px;
+            margin: -9px;
+            font-size: 15px;
+            top: 0px;
+            right: 0px;
+          }
+        
+          .dropdown2 ul li h3 {
+            font-size: 17px;
+          }
+        
+        
+        
+          .drop2:hover .dropdown2 {
+            display: flex;
+          }
+        
+          /* Course End  */
+        
+        
+          /* Admission Start  */
+        
+          .drop3 {
+            display: inline-block;
+        
+          }
+        
+          .dropdown3 {
+            display: none;
+            background: white;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            height: 18.7rem;
+            width: 15.8rem;
+            color: rgb(8, 8, 77);
+            position: absolute;
+            /* left: 370px; */
+            top: 3rem;
+        
+          }
+        
+          .drop3:hover .dropdown3 {
+            display: block;
+          }
+        
+          .dropdown3 ul li {
+            position: relative;
+            top: 10px;
+            display: block;
+          }
+        
+          .drop3 {
+            display: inline-block;
+        
+          }
+        
+          /* End Of Admission  */
+        
+        
+        /* Life Of Start  */
+          .drop4 {
+            display: inline-block;
+          }
+        
+          .dropdown4 {
+            display: none;
+            background: white;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            color: rgb(8, 8, 77);
+            position: absolute;
+            top: 3rem;
+            /* margin-left: -0.5px;      */
+            height: 15.7rem;
+            width: 12.5rem;
+        
+          }
+        
+          .dropdown4 ul li {
+            display: block;
+            position: relative;
+            width: 158px;
+            font-size: 16px;
+            top: 8px;
+            right: 0px;
+          }
+        
+          .dropdown4 ul li h3 {
+            font-size: 20px;
+          }
+        
+        
+          .drop4:hover .dropdown4 {
+            display: flex;
+          }
+        
+        
+        
+          /* Student Of Start  */
+          .student {
+            display: inline-block;
+        
+          }
+        
+        
+          .studentdrop {
+            display: none;
+            background: white;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            color: rgb(8, 8, 77);
+            position: absolute;
+            top: 10px;
+            left: 10.5rem;
+            /* margin-left: -0.5px;    */
+            height: auto;
+            width: auto;
+        
+          }
+        
+          .studentdrop ul li {
+            display: flex;
+            position: relative;
+            height: auto;
+            width: 8rem;
+            top: 3px;
+            right: 0px;
+          }
+        
+          .studentdrop ul li h3 {
+            font-size: 20px;
+          }
+        
+          .student:hover .studentdrop {
+            display: flex;
+          }
+        
+          /* End Of Student  */
+        
+        
+        
+          .teacher {
+            display: inline-block;
+        
+          }
+        
+          .teacherdrop {
+            display: none;
+            background: white;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            color: rgb(8, 8, 77);
+            position: absolute;
+            top: 45px;
+            left: 11.4rem;
+            /* margin-left: -0.5px;    */
+            height: auto;
+            width: auto;
+        
+          }
+        
+          .teacherdrop ul li {
+            display: flex;
+            position: relative;
+            height: auto;
+            width: 8rem;
+            top: 0px;
+            right: 0px;
+          }
+        
+          .teacherdrop ul li h3 {
+            font-size: 20px;
+          }
+        
+          .teacher:hover .teacherdrop {
+            display: flex;
+          }
+        
+          /* End Of Teacher  */
+        
+            /* End Of  Admission  */
+        
+        
+            /* Starting Of Placement  */
+        
+          .drop5 {
+            display: inline-block;
+          }
+        
+          .dropdown5 {
+            display: none;
+            background: white;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            color: rgb(8, 8, 77);
+            position: absolute;
+            top: 3rem;
+            /* margin-left: -0.5px;      */
+            height: 7.5rem;
+            width: 12.5rem;
+        
+          }
+        
+          .dropdown5 ul li {
+            display: block;
+            position: relative;
+            width: 158px;
+            font-size: 16px;
+            top: 0px;
+            right: 0px;
+          }
+        
+          .dropdown5 ul li h3 {
+            font-size: 20px;
+          }
+        
+        
+          .drop5:hover .dropdown5 {
+            display: flex;
+          }
+        
+          /* Ending Of Placement  */
+        
+        
+          
+        
+        
+          .navbar .searchlogo {
+            position: absolute;
+            bottom: 42px;
+            left: 85rem;
+          }
+        
+          .searchlogo ion-icon {
+            position: absolute;
+            height: 1.4rem;
+            width: 1.4rem;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+            padding: 5px;
+          }
+        
+          .navbar .searchlogo:hover {
+            cursor: pointer;
+          }
+        
+        
+          /* Ending Of Navbar  */
+        
+        
+        
+          /* Starting Of Marquee  */
+        
+        
+          .name {
+            background: gold;
+            height: 50px;
+            font-weight: bold;
+            position: relative;
+            top: 0px;
+            bottom: 50px;
+            color: rgb(18, 18, 163);
+            z-index: -1;
+          }
+        
+          .name p {
+            position: relative;
+            bottom: 50px;
+            font-size: 50px;
+          }
+        
+          .name img {
+            position: relative;
+            top: 5px;
+            height: 40px;
+            right: 210px;
+          }
+        
+          /* Ending Of Marquee  */
+        
+        
+        .bod{
+            position: absolute;
+            height: 100%;
+            width: 98rem;
+            top: 20rem;
+            font-family: Robot;
+            z-index: -100;
+            transform: translateX(700px);
+            animation: slide1 0.8s linear forwards;
+            opacity: 0;
+            animation-delay: 0.8s;
+        }
+
+        @keyframes slide {
+            0%, 49.77%{
+               opacity: 1;
+               transform: translateX(0px);
+               
+            }
+
+            50%, 100%{
+                opacity: 0;
+                transform: translateX(0px);
+            }
+        }
+
+
+        .color{
+            position: relative;
+            z-index: 1;
+            background-color: rgb(244, 192, 59);
+            width: 70rem;
+            height: 84rem;
+            clip-path: polygon(48% -8%, 1% 65%, 46% 65%);
+            left: 72%;
+            top: -43.2rem;
+            transform: translateX(300px);
+            animation: slide1 0.8s linear forwards;
+            opacity: 0;
+            animation-delay: 3s;
+        }
+
+        @keyframes slide1 {
+            to{
+               opacity: 1;
+               transform: translateX(0);
+               
+            }
+        }
+
+        
+
+        .color2{
+            position: relative;
+            z-index: -2;
+            background-color: rgba(244, 192, 59, 0.507);
+            width: 92rem;
+            height: 75rem;
+            clip-path: polygon(40% -17%, 0% 65%, 42% 65%);
+            left: 63%;
+            top: -121rem;
+            transform: translateX(300px);
+            animation: slide2 0.8s linear forwards;
+            opacity: 0;
+            animation-delay: 2.3s;
+        
+        }
+
+        @keyframes slide2 {
+            to{
+                opacity: 1;
+                transform: translateX(0);
+               
+            }
+        }
+
+        .color3{
+            position: relative;
+            z-index: -3;
+            background-color: rgba(244, 192, 59, 0.199);
+            width: 125rem;
+            height: 100rem;
+            clip-path: polygon(37% -11%, 0% 65%, 42% 65%);
+            left: 53%;
+            top: -211rem;
+            transform: translateX(180px);
+            animation: slide3 0.8s linear forwards;   
+            opacity: 0;
+            animation-delay: 2.1s;
+
+        }
+
+        @keyframes slide3 {
+            to{
+               opacity: 1;               
+               transform: translateX(0);
+               
+            }
+
+        }    
+        
+        .bdimg2 img{
+            position: absolute;
+            width: 40%;
+            height: 74%;
+            left: 42rem;
+            top: -4rem;
+            transform: translateX(400px);
+            animation: sildeimg 0.8s linear forwards;
+            opacity: 0;
+            animation-delay: 2.6s;
+
+        }
+
+        @keyframes sildeimg {
+          to{  opacity: 1;
+               transform: translateX(0);
+        }
+        }
+
+        .bdtxt h2{
+
+            position: relative;
+            top: -4rem;
+            left: 9rem;
+            line-height: 2.3rem;
+            font-size: 47px;
+            width: 25rem;
+            color: rgb(16, 32, 68);
+            transform: translateX(-800px);
+            animation: sildeh2 0.8s linear forwards;
+            opacity: 0;
+            animation-delay: 0.7s;
+        }
+
+
+        @keyframes sildeh2 {
+            to{  opacity: 1;
+                 transform: translateX(0);
+          }
+          }
+
+        .bdtxt h3{
+            position: relative;
+            top: -3.7rem;
+            left: 9rem;
+            line-height: 2.1rem;
+            font-size: 47px;
+            width: 25rem;
+            color: rgb(240, 205, 48);
+            transform: translateX(-1500px);
+            animation: sildeh3 0.8s linear forwards;
+            opacity: 0;
+            animation-delay: 0.8s;
+        }
+
+
+        @keyframes sildeh3 {
+            to{  opacity: 1;
+                 transform: translateX(0);
+          }
+          }
+
+        .bdtxt p{
+            position: relative;
+            top: -2rem;
+            left: 9rem;
+            line-height: 2.1rem;
+            font-size: 30px;
+            width: 29rem;
+            color: rgb(16, 32, 68);
+            transform: translateX(-1600px);
+            animation: sildep 0.8s linear forwards;
+            opacity: 0;
+            animation-delay: 0.8s;
+        }
+
+        @keyframes sildep {
+            to{  opacity: 1;
+                 transform: translateX(0);
+          }
+          }
+
+        .bdtxt h1{
+            position: relative;
+            top: 0rem;
+            left: 9rem;
+            line-height: 2.1rem;
+            font-size: 47px;
+            color: rgb(16, 32, 68);
+            width: 25rem;
+            transform: translateX(-1700px);
+            animation: sildeh1 0.8s linear forwards;
+            opacity: 0;
+            animation-delay: 0.9s;
+        }
+ 
+        @keyframes sildeh1 {
+            to{  opacity: 1;
+                 transform: translateX(0);
+          }
+          }
+
+        .btn{
+            
+            background-color: rgb(56, 64, 67);
+            color: rgb(244, 192, 59);
+            width: 107px;
+            height: 107px;
+            box-shadow: rgb(233, 234, 236) 0px 0px 0px 12px;
+            border-radius: 100%;
+            top: 4rem;
+            position: relative;
+            z-index: -10;
+            left: 12rem;
+            transform: translateX(-800px);
+            animation: sildeimg 0.8s linear forwards;
+            opacity: 0;
+            animation-delay: 1.2s;
+        }
+
+        @keyframes sildeh1 {
+            to{  opacity: 1;
+                 transform: translateX(0);
+          }
+          }
+
+        .btn ion-icon{
+            
+            position: absolute;
+            top: 2rem;
+            left: 2rem;
+            width: 2.6rem;
+            height: 2.6rem;
+            
+        }
+        
+        
+        </style>
+    </head>
+    <body>
+        <!-- Starting Of Header -->
+        <header class="header">
+        <ul>
+            <ion-icon name="call-outline" class="image1"></ion-icon>
+            <li>+91 9137294409</li>
+            <hr>
+            <ion-icon name="call-outline" class="image2"></ion-icon>
+            <li>+91 8937944840</li>
+            <hr>
+            <ion-icon name="mail-open-outline" class="image3"></ion-icon>
+            <li>admission@jit.edu.in</li>
+            <hr>
+            <ion-icon name="mail-open-outline" class="image4"></ion-icon>
+            <li>info@jit.edu.in</li>
+        </ul>
+        <div class="right">
+            <button>Student Login</button>
+        </div>
+        <ion-icon name="logo-facebook" class="image5"></ion-icon>
+        <ion-icon name="logo-twitter" class="image6"></ion-icon>
+        <ion-icon name="logo-linkedin" class="image7"></ion-icon>
+        <ion-icon name="logo-instagram" class="image8"></ion-icon>
+    </header>
+    <!-- Starting Of NavBar  -->
+        <div class="navbar">
+        <ul>
+            <img src="./image/jitlogo.png" alt>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <div class="drop1">
+                <li>
+                    <a href="#">About</a>
+                    <ion-icon name="chevron-down-outline" class="arrow"></ion-icon>
+                </li>
+                <div class="dropdown1">
+                    <ul>
+                        <li>
+                            <a href="#">Chairman's Message</a>
+                        </li>
+                        <li>
+                            <a href="#">Director's Message</a>
+                        </li>
+                        <li>
+                            <a href="#">History</a>
+                        </li>
+                        <li>
+                            <a href="#">Vision & Mission</a>
+                        </li>
+                        <li>
+                            <a href="#">Affiliation & Recognition</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="drop2">
+                <li>
+                    <a href="#">Course</a>
+                    <ion-icon name="chevron-down-outline" class="arrow"></ion-icon>
+                </li>
+                <div class="dropdown2">
+                    <ul>
+                        <li>
+                            <h2>
+                                <a href="#">College Of Engineering</a>
+                            </h2>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="#">B.Tech Degree in:</a>
+                            </h4>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Computer Science
+                                Engineering(CSE)
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Artificial Intelligence & Machine
+                                Learning(AI &
+                                ML)
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">Electrical Engineering(EE)</a>
+                        </li>
+                        <li>
+                            <a href="#">Civil Engineering(CE)</a>
+                        </li>
+                        <li>
+                            <a href="#">Mechanical Engineering(ME)</a>
+                        </li>
+                        <b>
+                            <li>
+                                <a href="#">
+                                    Bachelor Of Computer Application
+                                    (BCA)
+                                </a>
+                            </li>
+                        </b>
+                        <ul>
+                            <br>
+                            <br>
+                            <li>
+                                <h2>
+                                    <a href="#">Diploma in:</a>
+                                </h2>
+                            </li>
+                            <li>
+                                <a href="#">Civil Engineering(CE)</a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Electrical
+                                    Engineering(EE)
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Library & Information
+                                    Engineering
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Mechanical
+                                    Engineering(ME)
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Computer Science
+                                    Engineering(CSE)
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Electronics & Communications
+                                    Engineering(ECE)
+                                </a>
+                            </li>
+                        </ul>
+                    </ul>
+                    <ul>
+                        <li>
+                            <h2>
+                                <a href="#">College Of Pharmacy</a>
+                            </h2>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="#">Degree in:</a>
+                            </h4>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Bachelor Of
+                                Pharmacy(B.Pharma)
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Bachelor Of Pharmacy(Lateral Entry
+                                For
+                                D.Pharma)
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">M.Pharma(Upcoming)</a>
+                        </li>
+                        <li>
+                            <a href="#">Pharm. D(Upcoming)</a>
+                        </li>
+                        <ul>
+                            <li>
+                                <h3>
+                                    <a href="#">Diploma in:</a>
+                                </h3>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Diploma in
+                                    Pharmacy(D.Pharmacy)
+                                </a>
+                            </li>
+                        </ul>
+                        <br>
+                        <br>
+                        <ul>
+                            <li>
+                                <h2>
+                                    <a href="#">College Of ITI</a>
+                                </h2>
+                            </li>
+                            <li>
+                                <a href="#">Filter</a>
+                            </li>
+                            <li>
+                                <a href="#">Welder</a>
+                            </li>
+                            <li>
+                                <a href="#">Electrician</a>
+                            </li>
+                            <li>
+                                <a href="#">Draughtsman</a>
+                            </li>
+                            <li>
+                                <a href="#">Digital Photography</a>
+                            </li>
+                        </ul>
+                    </ul>
+                    <ul>
+                        <li>
+                            <h2>
+                                <a href="#">College Of Business</a>
+                            </h2>
+                        </li>
+                        <li>
+                            <a href="#">MBA IT</a>
+                        </li>
+                        <li>
+                            <a href="#">MBA IB</a>
+                        </li>
+                        <li>
+                            <a href="#">MBA Finance</a>
+                        </li>
+                        <li>
+                            <a href="#">MBA Marketing</a>
+                        </li>
+                        <li>
+                            <a href="#">MBA HR</a>
+                        </li>
+                        <li>
+                            <a href="#">B.COM</a>
+                        </li>
+                        <li>
+                            <a href="#">BBA(Upcoming)</a>
+                        </li>
+                        <ul>
+                            <li>
+                                <h2>
+                                    <a href="#">College Of Arts</a>
+                                </h2>
+                            </li>
+                            <b>
+                                <li>
+                                    <h4>Bachelor Of Arts in:</h4>
+                                </li>
+                            </b>
+                            <li>
+                                <a href="#">Hindi</a>
+                            </li>
+                            <li>
+                                <a href="#">English</a>
+                            </li>
+                            <li>
+                                <a href="#">Urdu</a>
+                            </li>
+                            <li>
+                                <a href="#">Sociology</a>
+                            </li>
+                            <li>
+                                <a href="#">Education</a>
+                            </li>
+                            <li>
+                                <a href="#">Ancient History</a>
+                            </li>
+                            <li>
+                                <a href="#">Political Science</a>
+                            </li>
+                        </ul>
+                    </ul>
+                    <ul>
+                        <li>
+                            <h2>
+                                <a href="#">PG Diploma in:</a>
+                            </h2>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Advertising and Public
+                                Relation
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Customer Service
+                                Management
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Marketing and Sales
+                                Management
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">Accountancy</a>
+                        </li>
+                        <li>
+                            <a href="#">Fashion Technology</a>
+                        </li>
+                        <li>
+                            <a href="#">Web Designing</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Computer Hardware &
+                                Networking
+                            </a>
+                        </li>
+                        <br>
+                        <br>
+                        <ul>
+                            <li>
+                                <h2>
+                                    <a href="#">
+                                        College Of Media &
+                                        Journalism
+                                    </a>
+                                </h2>
+                            </li>
+                            <b>
+                                <li>
+                                    <h5>
+                                        <a href="#">Diplome in:</a>
+                                    </h5>
+                                </b>
+                            </li>
+                            <li>
+                                <a href="#"> Fashion Technology</a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Advertising and Public
+                                    Relation
+                                </a>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+            <div class="drop3">
+                <li>
+                    <a href="#">Admission & Faculty</a>
+                    <ion-icon name="chevron-down-outline" class="arrow"></ion-icon>
+                </li>
+                <div class="dropdown3">
+                    <ul>
+                        <li>
+                            <a href="#">College Of Engineering</a>
+                        </li>
+                        <li>
+                            <a href="#">College Of Pharmacy</a>
+                        </li>
+                        <li>
+                            <a href="#">College Of PG Courses</a>
+                        </li>
+                        <li>
+                            <a href="#">College Of ITI</a>
+                        </li>
+                        <li>
+                            <a href="#">College Of Arts & Commerce</a>
+                        </li>
+                        <li>
+                            <a href="#">College Of Media</a>
+                        </li>
+                        <li>
+                            <a href="#">Download Admission Form</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="drop4">
+                <li>
+                    <a href="#">Life @ JIT</a>
+                    <ion-icon name="chevron-down-outline" class="arrow"></ion-icon>
+                </li>
+                <div class="dropdown4">
+                    <ul>
+                        <div class="student">
+                            <li>
+                                <a href="#">Students Corner</a>
+                                <ion-icon name="chevron-down-outline" class="arrow"></ion-icon>
+                            </li>
+                            <div class="studentdrop">
+                                <ul>
+                                    <li>
+                                        <a href="#">T&P Cell</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Staff Feedback</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Pass Out
+                                            Students
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">E-Newspaper</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="teacher">
+                            <li>
+                                <a href="#">Teachers Corner</a>
+                                <ion-icon name="chevron-down-outline" class="arrow"></ion-icon>
+                            </li>
+                            <div class="teacherdrop">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            Student
+                                            Feedback
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">T&P Cell</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <li>
+                            <a href="#">E-Newsletter</a>
+                        </li>
+                        <li>
+                            <a href="#">JIT in News</a>
+                        </li>
+                        <li>
+                            <a href="#">JIT Event & Awards</a>
+                        </li>
+                        <li>
+                            <a href="#">Media & Gallery</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="drop5">
+                <li>
+                    <a href="#">Placement</a>
+                    <ion-icon name="chevron-down-outline" class="arrow"></ion-icon>
+                </li>
+                <div class="dropdown5">
+                    <ul>
+                        <li>
+                            <a href="#">Placements</a>
+                        </li>
+                        <li>
+                            <a href="#">T&P Cell</a>
+                        </li>
+                        <li>
+                            <a href="#">Our Recuriters</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <li>
+                <a href="#">Career</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+        <div class="searchlogo">
+            <ion-icon name="search"></ion-icon>
+        </div>
+    </div>
+</div>
+        <!-- Starting Of Marquee Tag -->
+        <div class="name">
+            <marquee behavior direction="left">
+                <img src="./image/jitlogo.png" alt srcset>
+                <p>Jahangirabad Education Trust Group Of Institution</p>
+            </marquee>
+        </div>
+        <!-- Starting Of Body 1 Slider -->
+        <div class="bod">
+            <div class="bdimg2">
+                <div class="bdtxt">
+                    <h2>EMPOWERING STUDENTS</h2>
+                    <H3>FOR SUCCESS</H3>
+                    <P>Don't get framed by the competition, trust our solid reputation.</P>
+                    <h1>Why Join JIT?</h1>
+                    <div class="btn">
+                        <ion-icon name="play"></ion-icon>
+                    </div>
+                </div>
+                <div class="color"></div>
+                <img src="./image/Jahangirabad Institute of Technology JIT_files/Untitled-3-1.png" alt="">
+                <div class="color2"></div>
+                <div class="color3"></div>
+
+            </div>
+        </div>   
+                
+        
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </div>
+</body>
+</html>
